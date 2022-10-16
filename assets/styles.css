@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #000;
+  position: absolute;
+}
+
+.box:nth-child(1) {
+  background: #fe8888;
+  left: 50px;
+  top: 50px;
+}
+
+.box:nth-child(2) {
+  background: #7e8beb;
+  left: 100px;
+  top: 100px;
+  z-index: 1;
+}
+
+.box:nth-child(3) {
+  background: #4eef98;
+  left: 150px;
+  top: 150px;
+}
